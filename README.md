@@ -1,3 +1,5 @@
+The system was developed earlier for a class project. The fork aims to straighten several corners - laravel will be replaced with Flask, enabling Salt messaging directly from the API. Database support will be improved and extended to accomodate different locations and/or cloud providers.
+Original:
 This system was developed by: David Christofferson, Wesley Haws, Robert Jackson, Andres Martenson, and Mario Valencia.
 
 The purpose of this system is to remove the burden of database upkeep from end users. It is designed so the system is hosted by those in your organization that are database experts. They retain root access to databases and are responsible for keeping databases backed up and running correctly. Users of the system access it through the Web Interface. From there they can perform CRUD operations on both databases that belong to them and database users. The system also provides for easy password resetting, should it be needed. This ensures end users are never locked out of their database.
